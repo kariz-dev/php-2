@@ -103,6 +103,7 @@
         
         // Output: 
         
+        
         echo "<h3>Soal No 4 Asterix </h3>";
         /* 
             Soal No 4
@@ -115,8 +116,22 @@
             * * * * 
             * * * * *
         */
+        // code
+        
         echo "Asterix: ";
-        echo "<br>";        
+        echo "<br>";
+
+        for( $a=6; $a>0; $a--){
+            for($i=1; $i<=$a; $i++){
+                echo "  ";
+            }for($a1=6; $a1>$a; $a1--){
+                echo"*";
+            }for($a2=5; $a2>$a; $a2--){
+                echo"*";
+            }echo"<br>";
+        }
+        
+        echo "<br>";
     ?>
 
 </body>
